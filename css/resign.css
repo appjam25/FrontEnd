@@ -1,0 +1,89 @@
+button{
+    box-sizing: border-box;
+    width: 306px; 
+    height: 52px;
+    border-radius: 10px;
+    border : none; 
+    background-color: #F38E8E;
+    color: white;
+    position: fixed;
+    bottom: 67px;
+}
+main{
+    box-sizing: border-box;
+    padding: 0px 42px;
+}
+section{
+    box-sizing: border-box;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:67px;
+}
+#logo{
+    box-sizing: border-box;
+    position: relative;
+    width: 60px;
+    height: 53px;
+}
+#logo + div{ /*회원가입 타이틀*/
+    margin-top: 28px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input_div{
+    width: 100%;
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.input_box{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%; 
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding:8px;
+    display: flex;
+}
+span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.input_box input{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 47px;
+    background-color: transparent;
+}
+#input_button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    border:none; 
+    border-radius: 7px;
+    background-color: #ABABAB;
+    color: white;
+    left: 76%;
+    top: 13%; 
+    font-size: 12px;
+
+
+}
+
+#password, #birth, #region{
+    box-sizing: border-box;
+    width: 100%; 
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding:8px; 
+}
