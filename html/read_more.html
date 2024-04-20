@@ -10,17 +10,20 @@
 <body>
     <main>
         <section>
-            <div id="logo"><img src="../img/logo.svg" alt=""></div>
-            <!-- 검색창 -->
-            <div class="input_div">
-                <div class="input_box">
-                    <div class="input_img"></div>
-                    <!-- placehorlder 검색을 넣어도 되는 지 모루겠오.. -->
-                    <input type="text" placeholder="검색">
+            <div class="menubar">
+                <div id="logo"><img src="../img/logo.svg" alt=""></div>
+                <!-- 검색창 -->
+                <div class="input_div">
+                    <div class="input_box">
+                        <div class="input_img"></div>
+                        <!-- placehorlder 검색을 넣어도 되는 지 모루겠오.. -->
+                        <input type="text" placeholder="검색">
+                    </div>
                 </div>
+                <!-- 저 하트를 뭐라고..해야할지 모루겠오요.. -->
+                <div></div>
             </div>
-            <!-- 저 하트를 뭐라고..해야할지 모루겠오요.. -->
-            <div></div>
+
             <!-- 이부분을 통틀어서 join box로 묶어도 될지...-->
             <div class="join_box">
                 <!-- 개인 정보 (프사, 닉네임) -->
@@ -34,7 +37,8 @@
                 <div class="join_box_title">같이 브런치 드실 분!</div>
                 <div class="join_box_info">이번주 일요일 아침에 같이 브런치 드실 분 구해요~
                     성수동 근처 사시는 분이면 더 좋아요!</div>
-                <!-- 위치,   -->
+
+                <!-- 위치,메뉴,멤버   -->
                 <div class="meal_info">
                     <!-- 위치 정보 -->
                     <div class="meal_info_location">
@@ -46,10 +50,58 @@
                         <div class="menu_icon"></div>
                         <div class="menu_text">브런치</div>
                     </div>
-                    <!-- 현재 인원 : 2/4-->
-                    <div class="persons_per"> <!--현재인원 class 이름을 뭘해야할지 모루겠도요..-->
-                        <div class="persons_icon"></div>
-                        <div class="persons">2/4</div>
+                    <!-- 매칭 멤버 -->
+                    <div class="member">
+                        <!-- 현재 매칭 멤버 프로필.. -->
+                        <div class="member_img"></div>
+                    </div>
+                </div>
+                <div class="joint_button">
+                    <button>참여하기</button>
+                </div>
+
+
+                <div class="member_box">
+                    <div class="member_box_first">
+                        <div class="personal_info">
+                            <!-- 프사 -->
+                            <div class="profil_img"></div>
+                            <!-- 닉네임 -->
+                            <div class="name">도경</div>
+                            <div class="age_gender">
+                                27세 남자
+                            </div>
+                            <div class="temperature">
+                                <div class="temperature_text">80%</div>
+                                <!-- 온도 표시를.. 뭐라구 해야할쥐 모루겠도 -->
+                                <div class="temperature_bar"></div>
+                            </div>
+                            <div class="read_more_button">
+                                <button>상세보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 두번째 -->
+                    <div class="member_box_second">
+                        <div class="personal_info">
+                            <!-- 프사 -->
+                            <div class="profil_img"></div>
+                            <!-- 닉네임 -->
+                            <div class="name">도경</div>
+                            <div class="age_gender">27세 남자</div>
+                            <div class="temperature">
+                                <div class="temperature_text">80%</div>
+                                <!-- 온도 표시를.. 뭐라구 해야할쥐 모루겠도 -->
+                                <div class="temperature_bar"></div>
+                            </div>
+                            <div class="read_more_button">
+                                <button>상세보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 보이는게 여기까지라서.. 식당 이미지 부분까지만 적었어용 -->
+                    <div class="restaurant_box">
+                        <div class="restaurant_img"><img src="" alt=""></div>
                     </div>
                 </div>
                 <!-- 아래..메뉴바 클래스명을 이렇게 해두 괜찮은가용 -->
