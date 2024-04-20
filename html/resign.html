@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>같잇</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/resign.css">
+</head>
+<body>
+    <main>
+        <section>
+            <img id="logo" src="../img/같잇.svg"></img>
+            <div class="title">회원가입</div>
+            <div class="input_div">
+                <span>닉네임</span>
+                <div class="input_box">
+                    <div class="input-structure-box">
+                        <input type="text" id="nickname">
+                        <button id="input_button">중복확인</button>
+                    </div>
+                </div>
+            </div>
+            <div class="input_div">
+                <span class="input_title">비밀번호</span>
+                <input type="password" id="password">
+            </div>
+            <div class="input_div">
+                <span class="input_title">생년월일</span>
+               <input type="text" placeholder="YYYY-MM-DD" id="birth" >
+            </div>
+            <div class="input_div">
+                <span class="input_title">주소</span>
+                <input type="text" id="region">
+            </div>
+            <button id="resign-btn">회원가입</button>
+        </section>
+    </main>
+</body>
+<script src="../javascript/resign.js"></script>
+</html>
