@@ -55,15 +55,18 @@ section{
     border-radius: 10px;
     margin-top: 60px;
     margin-bottom : 28px;
+    background-color: transparent;
 }
 .input_box{
+    box-sizing: border-box;
     width: 100%;
     height : calc(100% / 2);
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    background-color: transparent;
+    padding-left: 16px;
 }
 .first{
     border-bottom:1px solid  #757575;
@@ -72,20 +75,25 @@ section{
     box-sizing: border-box;
     width: 28px;
     height: 28px;
-    z-index: 100;
+    position: relative;
+    left: 0px;
 }
-.input_img:first{
-    background-image: url("../img/material-symbols_person.jpg");
+#nickname, #password{
+    position: relative;
+    right: 0;
 }
-.input_img + .input_img{
-    background-image: url("../img/material-symbols_person.jpg");
+
+svg{
+    width: 24px;
+    height: 24px;
+  
 }
+
 input{
     position: absolute;
     height: 90%;
     width: 80%;
     background-color: transparent;
-    /* background-color: aqua; */
     outline: none;
     border: none; 
 }
@@ -102,12 +110,23 @@ button{
     position: relative;
     box-sizing: border-box;
     width: 100%;
-    height: 50px;
+    height: 19px;
     display: flex;
     flex-direction: row;
+    /* background-color: #757575; */
+    margin-top: 28px;
 }
 .signup_box{
     width: calc(100% / 2);
     height: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
 }
-
+.first_box{
+    border-right: 1px solid #757575;
+    color:#757575
+}
+.sec_box{
+    color: #F85454;
+}
