@@ -11,90 +11,85 @@
 
 <body>
     <main>
-        <div class="header">
-            <img src="../img/logo-1.svg" alt="" id="logo">
-            <!-- 검색창 -->
-                <div class="input_box">
-                    <!-- placehorlder 검색을 넣어도 되는 지 모루겠오.. -->
-                    <input type="text" placeholder="검색" class="search_tab">
-                    <img src="../img/carbon_search.svg" id="search" alt="">
-                </div>
-            <img src="../img/write.svg" alt="" id="write_btn">
-        </div>
-       
         <section>
+            <div id="logo"><img src="../img/logo.svg" alt=""></div>
+            <!-- 검색창 -->
+            <div class="input_div">
+                <div class="input_box">
+                    <div class="input_img"></div>
+                    <!-- placehorlder 검색을 넣어도 되는 지 모루겠오.. -->
+                    <input type="text" placeholder="검색">
+                </div>
+            </div>
             <!-- 저 하트를 뭐라고..해야할지 모루겠오요.. -->
             <div></div>
 
             <!-- 검색창 밑 버튼 -->
             <div class="category_buttons">
                 <!-- 기본순 버튼 -->
-                <div class="buttons_ basic">
+                <div class="buttons_basic">
                     <!-- 기본순 버튼 아이콘 -->
-                    <img src="../img/Group 6.svg" alt="">
-                    <div>기본순</div>
+                    <div class="buttons_basic_icon"></div>
+                    <button>기본순</button>
                 </div>
                 <!-- 음식종류 버튼 -->
-                <div class="buttons_ foodkinds">
+                <div class="buttons_foodkinds">
                     <!-- 음식종류 버튼 아이콘 -->
-                    <div>음식종류</div>
-                    <img src="../img/Vector 3.svg" alt="">
+                    <div class="=buttons_foodkinds_icon"></div>
+                    <button>음식 종류</button>
                 </div>
                 <!-- 세번제 버튼 -->
                 <div class="buttons_">
                     <!-- 세번제 버튼 아이콘-->
-                    <div>맛</div>
-                    <img src="../img/Vector 3.svg" alt="">
-                  
+                    <div class="=buttons__icon"></div>
+                    <button></button>
                 </div>
                 <!-- 네번째 버튼 -->
                 <div class="buttons_">
                     <!-- 네번째 버튼 아이콘-->
-                    <div>시간대</div>
-                    <img src="../img/Vector 3.svg" alt="">
-
+                    <div class="=buttons__icon"></div>
+                    <button></button>
                 </div>
             </div>
 
             <!-- 참여하기 박스 -->
             <div class="join_box">
                 <div class="join_box_first">
+                    <!-- 첫번째 참여 박스 이미지 -->
                     <div class="join_first_img"></div>
                     <!-- 첫번째 참여 박스 정보 -->
                     <div class="join_first_information">
                         <!-- 개인 정보 (프사, 닉네임) -->
                         <div class="personal_info">
                             <!-- 프사 -->
-                            <div class="profil_img _first"></div>
+                            <div class="profil_img"></div>
                             <!-- 닉네임 -->
                             <div class="name">하은</div>
                         </div>
-                        
                         <!-- 제목 : 같이 브런치 드실 분 -->
-                        <div class="join_box_title">같이 브런치 드실 분!</div>
+                        <div class="join_box_first_title">같이 브런치 드실 분!</div>
                         <!-- 식사 약속 정보 (위치, 시간, 현재인원) -->
-                        <div class="meal_info_div">
-                            <img src="../img/info1.svg" alt="">
-                          
-                            <!-- <div class="meal_info _location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#828282" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5"/></svg>
+                        <div class="meal_info">
+                            <!-- 위치 정보 -->
+                            <div class="meal_info_location">
+                                <div class="location_icon"></div>
                                 <div class="location_text">서울 성동구</div>
                             </div>
-                       
-                            <div class="meal_info _menu">
-                                <img class="menu_icon" src="../img/memo.svg"></img>
+                            <!-- 메뉴 정보 : 브런치 -->
+                            <div class="meal_info_menu">
+                                <div class="menu_icon"></div>
                                 <div class="menu_text">브런치</div>
                             </div>
-                         
-                            <div class="meal_info persons_per"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#828282" d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z"/></svg>
+                            <!-- 현재 인원 : 2/4-->
+                            <div class="persons_per"> <!--현재인원 class 이름을 뭘해야할지 모루겠도요..-->
+                                <div class="persons_icon"></div>
                                 <div class="persons">2/4</div>
-                            </div> -->
+                            </div>
                             <!-- 참여하기 버튼, 상세보기 버튼 -->
                             <div class="main_buttons">
                                 <!-- 이렇게 버튼에다가 클래스 이름 줘도 되는지 모르겠다아ㅏㅏ...ㅠㅠㅠㅠㅠㅠㅠ -->
-                                <button class="joint_ button">참여하기</button>
-                                <button class="read_more_ button">상세보기</button>
+                                <button class="joint_button">참여하기</button>
+                                <button class="read_more_button">상세보기</button>
                             </div>
                         </div>
                     </div>
@@ -107,34 +102,30 @@
                         <!-- 개인 정보 (프사, 닉네임) -->
                         <div class="personal_info">
                             <!-- 프사 -->
-                            <div class="profil_img _second"></div>
+                            <div class="profil_img"></div>
                             <!-- 닉네임 -->
                             <div class="name">하은</div>
                         </div>
                         <!-- 제목 : 같이 브런치 드실 분 -->
-                        <div class="join_box_title">같이 브런치 드실 분!</div>
+                        <div class="join_box_second_title">같이 브런치 드실 분!</div>
                         <!-- 식사 약속 정보 (위치, 시간, 현재인원) -->
-                        <div class="meal_info_div">
-                            <img src="../img/info2.svg" alt="">
-                            <!-- <div class="meal_info _location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#828282" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5"/></svg>
+                        <div class="meal_info">
+                            <!-- 위치 정보 -->
+                            <div class="meal_info_location">
+                                <div class="location_icon"></div>
                                 <div class="location_text">서울 성동구</div>
                             </div>
-             
-                            <div class="meal_info _menu">
-                                <img class="menu_icon" src="../img/memo.svg"></img>
+                            <!-- 메뉴 정보 : 브런치 -->
+                            <div class="meal_info_menu">
+                                <div class="menu_icon"></div>
                                 <div class="menu_text">브런치</div>
                             </div>
-
-                            <div class="meal_info persons_per"> 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#828282" d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z"/></svg>
+                            <!-- 현재 인원 : 2/4-->
+                            <div class="persons_per"> <!--현재인원 class 이름을 뭘해야할지 모루겠도요..-->
+                                <div class="persons_icon"></div>
                                 <div class="persons">2/4</div>
-                            </div> -->
-                            <div class="main_buttons">
-                                <!-- 이렇게 버튼에다가 클래스 이름 줘도 되는지 모르겠다아ㅏㅏ...ㅠㅠㅠㅠㅠㅠㅠ -->
-                                <button class="joint_ button">참여하기</button>
-                                <button class="read_more_ button">상세보기</button>
                             </div>
+
 
                         </div>
                     </div>
